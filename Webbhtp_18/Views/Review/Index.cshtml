@@ -1,0 +1,215 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="home.html" class="logo"> <i class="fas fa-shopping-basket"></i> groco </a>
+
+        <nav class="navbar">
+            <a href="~/Home">home</a>
+            <a href="~/News">News</a>
+            <a href="~/Shop">shop</a>
+            <a href="~/About">about</a>
+            <a href="~/Review">review</a>
+            <a href="~/Blog">blog</a>
+            <a href="~/Contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="~/Content/image/cart-1.jpg" alt="">
+                <div class="content">
+                    <h3>organic food</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$18.99</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="~/Content/image/cart-2.jpg" alt="">
+                <div class="content">
+                    <h3>organic food</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$18.99</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="~/Content/image/cart-3.jpg" alt="">
+                <div class="content">
+                    <h3>organic food</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">x</span>
+                    <span class="price">$18.99</span>
+                </div>
+            </div>
+            <h3 class="total"> total : <span>56.97</span> </h3>
+            <a href="#" class="btn">checkout cart</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login form</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login now" class="btn">
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">create one</a></p>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <div class="heading">
+        <h1>client's review</h1>
+        <p> <a href="home.html">home >></a> review </p>
+    </div>
+
+    <section class="info-container">
+
+        <div class="info">
+            <img src="~/Content/image/icon-1.png" alt="">
+            <div class="content">
+                <h3>fast delivery</h3>
+                <span>within 30 minutes</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <img src="~/Content/image/icon-2.png" alt="">
+            <div class="content">
+                <h3>24 / 7 available</h3>
+                <span>call us anytime</span>
+            </div>
+        </div>
+
+        <div class="info">
+            <img src="~/Content/image/icon-3.png" alt="">
+            <div class="content">
+                <h3>easy payments</h3>
+                <span>cash or credits</span>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="review">
+
+        <div class="box">
+            <div class="user">
+                <img src="~/Content/image/pic-1.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem molestiae expedita culpa officiis harum impedit vel! Odit saepe similique vero!</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="~/Content/image/pic-2.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem molestiae expedita culpa officiis harum impedit vel! Odit saepe similique vero!</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="~/Content/image/pic-3.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem molestiae expedita culpa officiis harum impedit vel! Odit saepe similique vero!</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="~/Content/image/pic-4.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem molestiae expedita culpa officiis harum impedit vel! Odit saepe similique vero!</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="~/Content/image/pic-5.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem molestiae expedita culpa officiis harum impedit vel! Odit saepe similique vero!</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="~/Content/image/pic-6.png" alt="">
+                <div class="info">
+                    <h3>john deo</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem molestiae expedita culpa officiis harum impedit vel! Odit saepe similique vero!</p>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
