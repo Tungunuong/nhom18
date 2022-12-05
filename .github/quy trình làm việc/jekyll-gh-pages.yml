@@ -1,7 +1,0 @@
-- tên: Tải xuống Tạo phẩm xây dựng
-  sử dụng: hành động/download-artifact@v3.0.1
-  với:
-    # Tên hiện vật
-    tên: # tùy chọn
-    # Đường dẫn đích
-    đường dẫn: # tùy chọn
