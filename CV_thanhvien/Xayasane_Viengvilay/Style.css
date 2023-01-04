@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.head{
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+    background-image: url(./img/img2.jpg);
+    background-size: contain;
+}
+.head .hi{
+    margin-top: 50px;
+    float: right;
+    margin-top: 10%;
+    margin-right: 35%;
+    width: 450px;
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0.375);
+    border-radius: 10px;
+}
+.head h1{
+    font-weight:bolder;
+    font-family: 'Times New Romance';
+    color: rgb(255, 255, 255);
+}
+
+.body{
+    width: 100%;
+    height: 900px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    background-color: rgb(5, 115, 79);
+    background-image: url(./img/img1.jpg);
+    background-size: cover;
+    margin-top: 4%;
+    margin-left: 10%;
+    position: sticky;
+    float: left;
+}
+.boxr{
+    width: 900px;
+    height: 300px;
+    position: sticky;
+    float: left;
+    margin-left: 50px;
+    margin-top: 4%;
+}
+.boxr h1{
+    font-family: 'Times New Romance';
+    text-decoration: underline;
+}
+.boxr h2{
+    font-size: x-large;
+    font-family: 'Times New Romance';
+}
+.boxl{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    background-color: rgb(5, 115, 79);
+    background-image: url(./img/img6.jpg);
+    background-size: cover;
+    margin-top: 4%;
+    margin-left: 10%;
+    position: sticky;
+    float: left;
+}
+.boxm{
+    width: 400px;
+    height: 300px;
+    border-radius: 10%;
+    margin-top: 4%;
+    margin-left: 6%;
+    position: sticky;
+    float: left;
+}
+.boxm h1{
+    font-family: 'Times New Romance';
+}
+.boxm p{
+    font-family: 'Times New Romance';
+}
+.box-right{
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+    margin-top: 4%;
+    margin-left: 10%;
+    position: sticky;
+    float: left;
+}
+.box-right h1{
+    font-family: 'Times New Romance';
+    text-align: center;
+}
+.box-right li{
+    font-family: 'Times New Romance';
+    font-size: larger;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(4, 81, 55);
+}
+
+footer p{
+    font-family: 'Times New Romance';
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+footer .logo{
+    float: left;
+    margin-left: 47%;
+    color: white;
+}
